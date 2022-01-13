@@ -79,4 +79,4 @@ GET /users => returns your user info & transactions
 
 ## Notes
 
-If I had more time I am certain I could implement the step feature. I have been very busy and haven't had enough time to dedicate to this project, though I am planning on implementing the step tomorrow probably, and subsequently building a SPA frontend
+If I had more time I am certain I could implement the step feature. I have been very busy and haven't had enough time to dedicate to this project, though I am planning on implementing the step tomorrow probably, and subsequently building a SPA frontend. Also in hindsight I should've ref'd the User schema to the Transaction schema, but it was too far along to change courses.

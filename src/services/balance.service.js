@@ -8,9 +8,7 @@ export const formatMoney = (amount) => {
 
 export const withdrawMoneyFromUserBalance = async (user, amount, type) => {
   user.balance = user.balance - amount;
-  /* 
-    Should I: TransactionModel.create({ type: "withdrawal", amount: amount, userId: user._id })
-  */
+
   user.transactions.push({
     amount: -amount,
     timestamp: new Date(),
